@@ -5,15 +5,14 @@ body{
 
 header {
     position: sticky;
-    top:0;
+    overflow: hidden;
+    top: 0;
     left: 0;
 
     display: flex;
-
     height: 150px;
     width: 100%;
     align-items: center;
-
     background-color: aliceblue;
 }
 
@@ -21,14 +20,12 @@ header {
     float: left;
     width: 100px;
     height: 100px;
-    margin: 20px;
-    flex-grow: 1;
-    
+    margin: 10px 40px; 
 }
 
 nav {
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 ul {
@@ -36,25 +33,18 @@ ul {
     list-style: none;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 h1.navbar-name, h2.navbar-title {
-    justify-content: center;
-    text-align: left;
+    text-align: center;
     margin: 0;
     display: block;
-    flex-grow: 1;
-}
-
-#about {
-    font-size: 40px;
 }
 
 div.page-content {
-    margin: 5vw 10vw;
+    margin: 0 10vw 10vh 10vw;
 }
 
-div.header {
-    scroll-margin-block-start: 160px;
+div.section {
+    scroll-margin-block-start: 150px;
 }
