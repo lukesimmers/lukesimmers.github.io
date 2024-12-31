@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top:0;
+    left: 0;
+
+    display: flex;
+
+    height: 150px;
+    width: 100%;
+    align-items: center;
+
+    background-color: aliceblue;
+}
+
+.logo-container img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    flex-grow: 1;
+    
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+h1.navbar-name, h2.navbar-title {
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    margin: 0;
+    display: block;
+    flex-grow: 1;
+}
+
+#about {
+    font-size: 40px;
+}
+
+div.page-content {
+    margin: 5vw 10vw;
+}
+
+div.header {
+    scroll-margin-block-start: 160px;
+}
