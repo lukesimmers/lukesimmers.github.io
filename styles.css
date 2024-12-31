@@ -35,10 +35,11 @@ ul {
     display: flex;
     list-style: none;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 h1.navbar-name, h2.navbar-title {
-    align-content: center;
     justify-content: center;
     text-align: left;
     margin: 0;
